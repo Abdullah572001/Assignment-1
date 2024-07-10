@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 /* common styles */
-main {
+main, .footer {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -179,6 +182,9 @@ main {
     color: #0D1321;
     margin-bottom: 48px;
 }
+.ins-video> iframe {
+    border-radius: 16px;
+}
 .ins-video {
     padding: 32px;
     border: 1px solid rgba(13, 19, 33, 0.2);
@@ -304,4 +310,26 @@ main {
     padding: 12px 20px;
     border-radius: 8px;
     border: none;
+}
+
+/* footer styles */
+footer {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-header> h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #0D1321;
+    padding: 38px 0;
+}
+.footer-a {
+    margin-left: 24px;
+}
+.footer-a> img {
+    padding-top: 32px;
 }
