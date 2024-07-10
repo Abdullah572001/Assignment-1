@@ -18,6 +18,9 @@ main {
   .text-center {
     text-align: center;
   }
+  .block {
+    display: block;
+  }
 
   /* nav styles */
   nav {
@@ -180,4 +183,83 @@ main {
     padding: 32px;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
+}
+
+/* target section styles */
+.target {
+    margin-top: 150px;
+}
+.c-target {
+    margin-bottom: 111px;
+}
+.c-target-content {
+    padding: 0 97px 48px 97px;
+}
+.c-target-header {
+    font-weight: bolder;
+    font-size: 32px;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+.c-target-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(13, 19, 33, 1);
+    margin-bottom: 48px;
+}
+
+.c-target-card {
+    display: flex;
+    gap: 24px;
+}
+.ctarget-card1 {
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    border-radius: 16px;
+}
+.ctarget-card2 {
+    background-color: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+    border-radius: 16px;
+}
+.ctarget-card3 {
+    background-color: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+    border-radius: 16px;
+}
+.ctarget-card-h {
+    font-weight: bolder;
+    font-size: 24px;
+    color: rgba(13, 19, 33, 1);
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.ctarget-card-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+.c-target-card a, .anc {
+    font-weight: bold;
+    font-size: 16px;
+    color: #0D1321;
+}
+
+
+.ntarget-content {
+    margin: 40px 144px;
+}
+.ntarget-card {
+    display: flex;
+    gap: 24px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+.card-img-2 {
+    margin: 65px 0 65px 40px;
+}
+.header-m-t {
+    margin-top: 20px;
 }
